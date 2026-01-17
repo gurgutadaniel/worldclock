@@ -49,7 +49,15 @@ body {
 /* ================== MEDIA QUERY PENTRU TELEFOANE ================== */
 @media screen and (max-width: 768px) {
   .clock-container {
-    flex-direction: column; /* coloana în loc de rând */
-    gap: 30px;             /* mai puțin spațiu între ceasuri */
+    flex-direction: column; /* ceasurile devin coloana */
+    gap: 30px;             /* mai puțin spațiu între ele */
+  }
+
+  .time {
+    font-size: 36px;       /* font mai mic pe telefon */
+  }
+
+  .label {
+    font-size: 18px;       /* label mai mic pe telefon */
   }
 }
