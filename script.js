@@ -1,7 +1,7 @@
 const zones = {
   bruxelles: "Europe/Brussels",
   norfolk: "America/New_York",
-  bucuresti: "Europe/Bucharest", // înlocuit Kiev
+  bucuresti: "Europe/Bucharest",
   utc: "UTC"
 };
 
@@ -25,4 +25,3 @@ function updateClocks() {
 
 updateClocks();
 setInterval(updateClocks, 1000);
-git add .
