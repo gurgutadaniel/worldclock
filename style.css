@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #ff0000;
+  font-family: "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-container {
+  display: flex;
+  gap: 60px;
+}
+
+.zone {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #550000;
+  border-radius: 8px;
+
+  /* Glow militar, mai serios și concentrat */
+  box-shadow: 
+    0 0 8px rgba(255, 0, 0, 0.9),   /* glow exterior clar */
+    0 0 16px rgba(255, 0, 0, 0.6),  /* glow exterior subtil pentru profunzime */
+    inset 0 0 6px rgba(255, 0, 0, 0.5); /* glow interior discret */
+}
+
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 6px rgba(255,0,0,0.6), 0 0 12px rgba(255,0,0,0.4);
+}
+
+.label {
+  margin-top: 12px;
+  font-size: 22px;       /* mai mare */
+  color: #ff6666;
+  font-weight: bold;
+  text-shadow:
+    0 0 8px rgba(255,0,0,1),
+    0 0 16px rgba(255,0,0,0.9),
+    0 0 24px rgba(255,0,0,0.7);
+  letter-spacing: 2px;
+}
